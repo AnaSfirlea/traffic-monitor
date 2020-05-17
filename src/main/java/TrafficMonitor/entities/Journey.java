@@ -23,5 +23,12 @@ public class Journey {
 
     private double estimatedToll;
 
+    public double calculateToll(){
+        assert vehicle != null;
+        return vehicle.getCurrentPosition().getSegment().getTrafficRate()*5;
+    }
+
+
+
 
 }

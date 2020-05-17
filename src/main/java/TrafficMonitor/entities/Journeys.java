@@ -1,5 +1,5 @@
 package TrafficMonitor.entities;//package thesis.TrafficMonitor.entities;
-//
+
 //import dtos.JourneyDto;
 //import dtos.PositionDto;
 //import dtos.SegmentDto;

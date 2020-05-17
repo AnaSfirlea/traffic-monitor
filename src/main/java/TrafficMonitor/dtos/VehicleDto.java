@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VehicleDto {
+
     private long id;
     private String licencePlate;
     private int speed; //(km/hour)

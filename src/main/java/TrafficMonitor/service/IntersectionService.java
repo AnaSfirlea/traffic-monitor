@@ -10,4 +10,8 @@ public interface IntersectionService {
     List<IntersectionDto> getIntersections();
 
     IntersectionDto addIntersection(IntersectionCreationDto creationDto);
+
+    IntersectionDto getOne(long id);
+
+    void deleteIntersection(long id);
 }

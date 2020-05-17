@@ -13,7 +13,7 @@ public class SegmentMapper {
                 .id(entity.getId())
                 .length(entity.getLength())
                 .speedRestriction(entity.getSpeedRestriction())
-                .trafficRate(entity.getSpeedRestriction())
+                .trafficRate(entity.getTrafficRate())
                 .build();
 
     }
